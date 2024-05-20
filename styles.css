@@ -8,12 +8,13 @@ body {
     height: 100vh;
     margin: 0;
 }
-form {
+form, #thank-you-message {
     background: #1a1a1a;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     width: 300px;
+    text-align: center;
 }
 label {
     margin: 10px 0 5px;
@@ -92,4 +93,7 @@ input {
 }
 .cssbuttons-io-button:active .icon {
     transform: scale(0.95);
+}
+.hidden {
+    display: none;
 }
